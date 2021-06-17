@@ -16,6 +16,7 @@
   background: #f2f2f2;
   display: flex;
   position: relative;
+  align-items: center;
   /* parameters for the header section */
 }
 
@@ -29,14 +30,12 @@
 }
 
 .header__title {
-  /*this top margin can't be right,but justify and align are not centering vertically*/
-  margin-top: 300px;
+  margin-bottom: 0;
   margin-left: 64px;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  justify-content: center;
   align-items: center;
   z-index: 1;
 }
