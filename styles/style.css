@@ -13,13 +13,64 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background: #f2f2f2;
+  display: flex;
+  position: relative;
   /* parameters for the header section */
+}
+
+.logo_place_header {
+  height: 31px;
+  width: 154px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  /*this top margin can't be right,but justify and align are not centering vertically*/
+  margin-top: 300px;
+  margin-left: 64px;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__main-illustration {
+  /*no clue how to get this to fit inside header container*/
+  /*max-width: 100%;*/
+  margin: 0;
+  height: 756px;
+  width: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+
 }
 
 /* including elements with key-value modifiers */
@@ -28,4 +79,22 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.content {
+}
+
+.description {
+}
+
+.digits {
+}
+
+.feynman {
+}
+
+.kaufman {
+}
+
+.footer {
 }
