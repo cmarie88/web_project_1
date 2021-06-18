@@ -98,7 +98,7 @@
 .description {
 }
 
-.two-columns__brief {
+.two-columns {
   display:flex;
   justify-content: space-between;
   justify-content: center;
@@ -107,7 +107,7 @@
 }
 
 /*delete later, use to see flex-child behavior*/
-.two-columns__brief_section {
+.two-columns__brief {
   background-color: lightblue;
   border: 1px solid black;
 }
@@ -132,7 +132,7 @@
 }
 
 .two-columns__paragraph {
-   /*remove <br> fromo html and add margin bottom of 30px 0 top margin 0 L & R, nth of type last: 0*/
+   /*remove <br> from html and add margin bottom of 30px 0 top margin 0 L & R, nth of type last: 0*/
 }
 
 /*Digits Block Styles*/
