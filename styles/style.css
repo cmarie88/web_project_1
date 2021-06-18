@@ -159,7 +159,7 @@
 .section-subtitle {
   margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 0;
+  padding-bottom: 60px;
   text-align: center;
   width: 60%;
   line-height: 34px;
@@ -173,9 +173,11 @@
 }
 .table {
   list-style: none;
-  padding-top: 60px;
+  padding: 0;
   display:flex;
   flex-wrap: wrap;
+  row-gap: 60px;
+  column-gap: 30px;
   justify-content: center;
   /*align-items: flex-start;*/
 
@@ -190,12 +192,13 @@
 
 .table__cell {
   width: 250px;
-  /* this should be outside of cell: padding: 60px 0 0;*/
-  /* delete later*/
+  height: 154px;
   padding: 0;
   margin: 0;
+  
+   /* delete later
   background-color: papayawhip;
-  border: 1px solid black;
+  border: 1px solid black;*/
 }
 
 .table__text {
