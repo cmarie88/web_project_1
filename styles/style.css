@@ -106,6 +106,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -122,7 +124,7 @@
 }
 
 .two-columns__main-text {
-  width: 80%;
+  
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
