@@ -100,14 +100,13 @@
 
 .two-columns {
   display:flex;
-  justify-content: space-between;
-  align-content: center;
-  /*Problem is in html? Apply two diff flex parent containers? center and space-between can't exist together, one overrides other*/
-  margin: 100px 0;
+  justify-content: center;
+  padding: 100px 0;
 }
 
-/*delete later, use to see flex-child behavior*/
 .two-columns__brief {
+  justify-content: space-between;
+  /*delete later, use to see flex-child behavior*/
   background-color: lightblue;
   border: 1px solid black;
 }
@@ -138,6 +137,11 @@
 /*Digits Block Styles*/
 .digits {
 }
+
+.section-title {
+
+}
+
 
 /*Feyman Block Styles*/
 .feynman {
