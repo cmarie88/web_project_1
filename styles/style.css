@@ -98,20 +98,18 @@
 .description {
   display:flex;
   justify-content: center;
-  flex-direction: row;
   padding: 100px 0;
 }
 
 .two-columns {
-  
+  display:flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .two-columns__brief {
   justify-content: space-between;
-  /*delete later, use to see flex-child behavior*/
-  background-color: lightblue;
-  border: 1px solid black;
 }
 
 .two-columns__brief_subtitle {
@@ -120,6 +118,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -186,7 +185,7 @@
 
 .table__cell {
   width: 250px;
-  /* this should be outside of cell padding: 60px 0 0;*/
+  /* this should be outside of cell: padding: 60px 0 0;*/
   /* delete later*/
   padding: 0;
   margin: 0;
