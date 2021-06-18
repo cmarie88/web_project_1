@@ -98,7 +98,9 @@
 .description {
   display:flex;
   justify-content: center;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .two-columns {
@@ -111,11 +113,10 @@
 }
 
 .two-columns__brief {
-  justify-content: space-between;
+  width: 175px;
 }
 
 .two-columns__brief_subtitle {
-  width: 175px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -124,7 +125,7 @@
 }
 
 .two-columns__main-text {
-  
+  width: 80%;
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
@@ -140,12 +141,14 @@
 
 /*Digits Block Styles*/
 .digits {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 .section-title {
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 0;
+  padding: 0;
   text-align: center;
   width: 60%;
   line-height: 69px;
