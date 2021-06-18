@@ -101,7 +101,7 @@
 .two-columns {
   display:flex;
   justify-content: space-between;
-  justify-content: center;
+  align-content: center;
   /*Problem is in html? Apply two diff flex parent containers? center and space-between can't exist together, one overrides other*/
   margin: 100px 0;
 }
