@@ -1,3 +1,4 @@
+/*Body/Page styles*/
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -9,6 +10,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*Header Block Styles*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -79,6 +81,7 @@
 
 }
 
+/*I dont know*/
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
@@ -87,21 +90,63 @@
   margin-top: 80px;
 }
 
+/*Main/Content Styles*/
 .content {
 }
 
+/*Description Block Styles*/
 .description {
-  display: flex;
 }
 
+.two-columns__brief {
+  display:flex;
+  justify-content: space-between;
+  justify-content: center;
+  /*Problem is in html? Apply two diff flex parent containers? center and space-between can't exist together, one overrides other*/
+  margin: 100px 0;
+}
+
+/*delete later, use to see flex-child behavior*/
+.two-columns__brief_section {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.two-columns__brief_subtitle {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.two-columns__paragraph {
+   /*remove <br> fromo html and add margin bottom of 30px 0 top margin 0 L & R, nth of type last: 0*/
+}
+
+/*Digits Block Styles*/
 .digits {
 }
 
+/*Feyman Block Styles*/
 .feynman {
 }
 
+/*Kaufman Block Styles*/
 .kaufman {
 }
 
+/*Footer Block Styles*/
 .footer {
 }
