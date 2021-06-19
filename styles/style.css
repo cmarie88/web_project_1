@@ -198,6 +198,8 @@
 .feynman {
   height: 790px;
   background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
@@ -209,6 +211,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .feynman__subtitle {
@@ -217,6 +220,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .feynman__link {
@@ -233,12 +237,10 @@
   width: 867px;
   height: 637px;
   position: absolute;
-  /*bottom: 0;
-  right: 0;*/
+  bottom: 0;
+  left: 0;
   z-index: 1;
 }
-
-
 
 /*Kaufman Block Styles*/
 .kaufman {
