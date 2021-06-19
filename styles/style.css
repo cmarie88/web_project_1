@@ -8,6 +8,7 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
 }
 
 /*Header Block Styles*/
@@ -58,11 +59,8 @@
 }
 
 .header__main-illustration {
-  /*no clue how to get this to fit inside header container*/
-  /*max-width: 100%;*/
-  /*margin: 0;*/
-  height: 608px;
   width: 756px;
+  height: 608px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -134,7 +132,7 @@
 /*Digits Block Styles*/
 .digits {
   margin: 0;
-  padding: 100px 0 0;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -198,7 +196,49 @@
 
 /*Feyman Block Styles*/
 .feynman {
+  height: 790px;
+  background: #f2f2f2;
+  position: relative;
 }
+
+.feynman__title {
+  text-align: center;
+  width: 775px;
+  padding: 100px 0 0;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  padding: 70px 0 0;
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  /*bottom: 0;
+  right: 0;*/
+  z-index: 1;
+}
+
+
 
 /*Kaufman Block Styles*/
 .kaufman {
