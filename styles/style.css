@@ -323,4 +323,64 @@
 
 /*Footer Block Styles*/
 .footer {
+  height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__columns {
+  display: flex;
+  flex-basis: 90%;
+  padding: 60px 0 40px;
+  justify-content: center;
+}
+
+.footer__column {
+
+}
+
+.footer__column_content_copyright {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  flex-basis: 711px;
+  align-items: flex-end;
+}
+
+.footer__column_content_about {
+
+}
+
+.footer__column_content_social {
+
+}
+
+.logo_place_footer {
+
+}
+
+.footer__column-heading {
+  list-style: none;
+  padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer__social-icons {
+
 }
