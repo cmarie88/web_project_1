@@ -320,42 +320,44 @@
 
 /*Footer Block Styles*/
 .footer {
-  height: 350px;
+  min-height: 350px;
   background-color: #1f1f1f;
   color: white;
-
 }
 
 .footer__columns {
+  height: 100%;
   display: flex;
   padding: 60px 0 40px;
-  justify-content: center;
-  flex-basis: 90%;
+  justify-content: space-evenly;
+  width: 90%;
+  
 }
 
 .footer__column {
+  margin: 0;
   display:flex;
   flex-direction: column;
+  /*delete later:*/
   background-color: maroon;
-
 }
 
 .footer__column_content_copyright {
-  padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
   justify-content: flex-end;
+  display:flex;
 }
 
 .footer__column_content_copyright_place-end {
-  
-
+  padding: 18px 0;
+  justify-self: flex-end;
 }
 
 .footer__column_content_about {
-
+  /*flex: 1 0 30%;*/
 }
 
 .footer__column_content_social {
@@ -365,6 +367,7 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
+  /*align-self: flex-start;*/
 }
 
 .footer__column-heading {
@@ -386,7 +389,6 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
-
 }
 
 .footer__social-icons {
