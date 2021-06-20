@@ -9,6 +9,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
+  padding: 0;
 }
 
 /*Header Block Styles*/
@@ -156,11 +157,6 @@
   font-weight: normal;
 }
 
-/*.table__container {
-  width: 1100px;
-  margin: 0 auto;
-}*/
-
 .table {
   width: 1100px;
   margin: 0 auto;
@@ -227,6 +223,7 @@
 
 .feynman__link {
   text-decoration: none;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -326,25 +323,35 @@
   height: 350px;
   background-color: #1f1f1f;
   color: white;
+
 }
 
 .footer__columns {
   display: flex;
-  flex-basis: 90%;
   padding: 60px 0 40px;
   justify-content: center;
+  flex-basis: 90%;
 }
 
 .footer__column {
+  display:flex;
+  flex-direction: column;
+  background-color: maroon;
 
 }
 
 .footer__column_content_copyright {
+  padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
-  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer__column_content_copyright_place-end {
+  
+
 }
 
 .footer__column_content_about {
@@ -356,7 +363,8 @@
 }
 
 .logo_place_footer {
-
+  width: 183px;
+  height: 35px;
 }
 
 .footer__column-heading {
@@ -369,7 +377,7 @@
 
 .footer__list {
   list-style: none;
-  padding: 0;
+  padding: 20px 0 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -382,5 +390,7 @@
 }
 
 .footer__social-icons {
-
+  padding: 0 10px 0 0;
+  width: 16px;
+  height: 16px;
 }
