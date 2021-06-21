@@ -366,7 +366,7 @@
 
 .footer__column-heading {
   list-style: none;
-  padding: 0;
+  padding: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -374,7 +374,7 @@
 
 .footer__list {
   list-style: none;
-  padding: 20px 0 0;
+  padding: 0 0 10px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
