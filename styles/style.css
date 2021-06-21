@@ -323,6 +323,7 @@
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -331,15 +332,12 @@
   padding: 60px 0 40px;
   justify-content: space-evenly;
   width: 90%;
-  
 }
 
 .footer__column {
   margin: 0;
   display:flex;
   flex-direction: column;
-  /*delete later:*/
-  background-color: maroon;
 }
 
 .footer__column_content_copyright {
@@ -347,27 +345,19 @@
   font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
-  justify-content: flex-end;
-  display:flex;
+  position: relative;
 }
 
 .footer__column_content_copyright_place-end {
   padding: 18px 0;
-  justify-self: flex-end;
-}
-
-.footer__column_content_about {
-  /*flex: 1 0 30%;*/
-}
-
-.footer__column_content_social {
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  /*align-self: flex-start;*/
 }
 
 .footer__column-heading {
