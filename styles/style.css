@@ -323,13 +323,14 @@
   background-color: #1f1f1f;
   color: white;
   box-sizing: border-box;
+  display: flex;
 }
 
 .footer__columns {
-  height: 100%;
   display: flex;
+  margin: 0 auto;
   padding: 60px 0 40px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 90%;
 }
 
@@ -345,14 +346,6 @@
   font-weight: normal;
   flex-basis: 711px;
   justify-content: space-between;
-}
-
-.footer__column_content_about {
-  /*justify-content: flex-start;*/
-}
-
-.footer__column_content_social {
- /* justify-content: flex-start;*/
 }
 
 .footer__author {
