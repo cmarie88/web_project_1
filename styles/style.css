@@ -24,8 +24,8 @@
 }
 
 .logo_place_header {
-  height: 31px;
   width: 154px;
+  height: 31px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -110,6 +110,7 @@
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
+  font-weight: normal;
 }
 
 .two-columns__span-accent {
@@ -123,7 +124,6 @@
 .two-columns__paragraph:last-of-type {
   padding: 0;
 }
-
 
 /*Digits Block Styles*/
 .digits {
@@ -313,7 +313,7 @@
   height: 636px;
   position: absolute;
   top: 0;
-  right: -162px;
+  right: -124px;
   z-index: 1
 }
 
