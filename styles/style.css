@@ -344,14 +344,19 @@
   font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
-  position: relative;
+  justify-content: space-between;
+}
+
+.footer__column_content_about {
+  /*justify-content: flex-start;*/
+}
+
+.footer__column_content_social {
+ /* justify-content: flex-start;*/
 }
 
 .footer__author {
   padding: 18px 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .logo_place_footer {
