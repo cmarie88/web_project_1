@@ -21,7 +21,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  /* parameters for the header section */
 }
 
 .logo_place_header {
@@ -68,7 +67,6 @@
   z-index: 1;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -77,12 +75,9 @@
   right: 0;
   background-color: #2f80ed;
   z-index: 0;
-
 }
 
 /*Main/Content Styles*/
-.content {
-}
 
 /*Description Block Styles*/
 .description {
@@ -260,6 +255,8 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  position: relative;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -270,6 +267,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  position: relative;
+  z-index: 2;
 }
 
 .table_theme_dark {
@@ -348,7 +347,7 @@
   position: relative;
 }
 
-.footer__column_content_copyright_place-end {
+.footer__author {
   padding: 18px 0;
   position: absolute;
   bottom: 0;
