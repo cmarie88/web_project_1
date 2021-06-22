@@ -95,9 +95,6 @@
 
 .two-columns__brief {
   flex-basis: 175px;
-}
-
-.two-columns__brief_subtitle {
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -248,12 +245,12 @@
 }
 
 .section-title_theme_dark {
-  margin: 0 auto;
+  /*margin: 0 auto;
   padding: 0;
   text-align: center;
   width: 60%;
   line-height: 69px;
-  font-size: 60px;
+  font-size: 60px;*/
   font-weight: bold;
   position: relative;
   z-index: 2;
