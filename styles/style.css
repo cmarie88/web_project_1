@@ -139,7 +139,11 @@
 /*Techniques Block Styles*/
 
 /*Video Block Styles*/
-/*put overflow: visible; to flow into next block*/
+/*put overflow: visible; to flow into next block? didnt work
+.video {
+overflow: visible;
+}*/
+
 .video__iframes {
   display: flex;
   column-gap: 20px;
@@ -311,6 +315,18 @@
 }
 
 /*Resources Block Styles*/
+.resources__logo-zone {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 0 217px;
+  list-style: none;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 
 /*Footer Block Styles*/
 .footer {
