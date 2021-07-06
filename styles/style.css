@@ -21,6 +21,7 @@
   display: flex;
   position: relative;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -75,9 +76,19 @@
   right: 0;
   background-color: #2f80ed;
   z-index: 0;
+  transform: rotate(-15deg);
+  animation: rotation 20s infinite linear;
 }
 
-/*Main/Content Styles*/
+/*Rotation Block Styles MOVE TO TOP OF FILE*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /*Description Block Styles*/
 .description {
@@ -121,6 +132,62 @@
 
 .two-columns__paragraph:last-of-type {
   padding: 0;
+}
+
+/*Techniques Block Styles*/
+
+/*Video Block Styles*/
+
+/*Oakley Block Styles*/
+
+/*Feyman Block Styles*/
+.feynman {
+  min-height: 790px;
+  padding: 100px 0 0;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.feynman__title {
+  text-align: center;
+  max-width: 775px;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  padding: 70px 0 0;
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__link {
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 /*Digits Block Styles*/
@@ -182,55 +249,7 @@
   font-weight: normal;
 }
 
-/*Feyman Block Styles*/
-.feynman {
-  min-height: 790px;
-  padding: 100px 0 0;
-  background: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.feynman__title {
-  text-align: center;
-  max-width: 775px;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  z-index: 2;
-}
-
-.feynman__subtitle {
-  padding: 70px 0 0;
-  margin: 0 auto;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  z-index: 2;
-}
-
-.feynman__link {
-  text-decoration: none;
-  color: #2f80ed;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-}
-
-.feynman__image {
-  width: 867px;
-  height: 637px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
+/*Khan Block Styles*/
 
 /*Kaufman Block Styles*/
 .kaufman {
@@ -274,6 +293,8 @@
   right: -124px;
   z-index: 1;
 }
+
+/*Resources Block Styles*/
 
 /*Footer Block Styles*/
 .footer {
