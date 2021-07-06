@@ -12,7 +12,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="Yandex-Practicum Logo">
+      <img class="logo logo_place_header" src="./images/logo/logo_place_header.png" alt="Yandex-Practicum Logo">
       <h1 class="header__title">Learning How to Learn</h1>
       <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily
         life<a class="header__link" href="#"> Learn more &#8594;</a></p>
@@ -45,6 +45,87 @@
           </div>
         </article>
       </section>
+      <section class="techniques">
+        <h2 class="section-title">Learning Techniques</h2>
+        <p class="section-subtitle">Five strategies from Barbara Oakley</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-attention.png"
+              alt="woman's hands holding book titled: '101 Essays that will Change the way You Think'">
+            <h3 class="cards__title">Two Ways of Thinking</h3>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between
+              focused and diffused thinking.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-recall.png"
+              alt="Michelangelo-style sculpture of seated man with pen to mouth as if in deep thought">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Improving your ability to remember key bits of information helps to connect
+              different parts of the brain.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-interleaving.png"
+              alt="very large space with tall columns curving upward to meet far overhead, with people milling around below">
+            <h3 class="cards__title">Interleaving</h3>
+            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-question.png"
+              alt="looking down into a room at a single person in a thoughtful stance, surrounded by tall walls with many small rectangular windows">
+            <h3 class="cards__title">Questions</h3>
+            <p class="cards__description">When listening to your teacher, think up a good question, something that
+              you're really itching to know.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="./images/cards-competence.png"
+              alt="side view of a flexed hand, balancing a small stack of books">
+            <h3 class="cards__title">Illusion of Competence </h3>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in
+              different settings. Only then can you be truly certain you've understood something.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">TED talks</h2>
+        <p class="section-subtitle">For lovers of procrastination</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?rel=0"
+            title="The fist 20 hours-how to learn anything with Josh Kaufman" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU?rel=0"
+            title="Inside the mind of a master procrastinator with Tim Urban" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <article class="two-columns">
+          <h2 class="two-columns__brief">Barbara Oakley’s story. </h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself
+              as more of a humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+              school she enlisted in the army, who sent her to learn Russian. After several years of service,
+              during which she rose to the rank of Captain, Barbara left the army and decided to study
+              engineering. In was during this time that she developed her learning methodology as she was
+              forced to reprogram her brain for a different kind of learning. It turns out that when something
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people
+              may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="feynman">
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting</p>
+        <a class="feynman__link" href="#">More &#8594;</a>
+        <img class="feynman__image" src="./images/feynman.png" alt="Richard Feynman, world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a
+        student at Princeton.">
+      </section>
+
       <section class="digits">
         <h2 class="section-title">Facts and figures</h2>
         <p class="section-subtitle">On learning and the brain</p>
@@ -88,13 +169,28 @@
           </li>
         </ul>
       </section>
-      <section class="feynman">
-        <h2 class="feynman__title">The Feynman Technique</h2>
-        <p class="feynman__subtitle">Learn without forgetting</p>
-        <a class="feynman__link" href="#">More &#8594;</a>
-        <img class="feynman__image" src="./images/feynman.png" alt="Richard Feynman, world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a
-        student at Princeton.">
+
+      <section class="khan">
+        <article class="khan__container">
+          <p class="khan__author">Salman Khan</p>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <blockquote class="khan__quote"
+            cite="https://www.bookbrowse.com/bb_briefs/detail/index.cfm/ezine_preview_number/7827/the-one-world-schoolhouse#:~:text=%22Sal%20Khan%27s%20passion,publisher%20of%20Edutopia">
+            <p>Whether it's at school or university, the one thing no one ever teaches
+              you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing
+              information so that when exam time comes around, we pass the test. But once the test is over, that
+              information has outlived its usefulness, and there's no guarantee that information will be
+              retained. In the end, we're really just learning how to pass our tests.</p>
+          </blockquote>
+          <p class="khan__quote-author">George Lucas</p>
+          <p class="khan__quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan-book-2.png"
+              alt="book cover image of 'The One World Schoolhouse' by Salman Khan">
+            <a class="khan__buy-link" href="#">Buy book &#8594;</a>
+          </div>
       </section>
+
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
         <p class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</p>
@@ -142,12 +238,39 @@
         </ul>
         <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Very large blue triangle">
       </section>
+
+      <section class="resources">
+        <h2 class="section-title">Useful resources</h2>
+        <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo">
+            <a href="#">
+              <img src="./images/logo/resources-tedED.png" alt="TED Ed logo">
+            </a>
+          </li>
+          <li class="resources__logo">
+            <a href="#">
+              <img src="./images/logo/resources-Medium.png" alt="Medium logo">
+            </a>
+          </li>
+          <li class="resources__logo">
+            <a href="#">
+              <img src="./images/logo/resources-dezeen.png" alt="de zeen logo">
+            </a>
+          </li>
+          <li class="resources__logo">
+            <a href="#">
+              <img src="./images/logo/resources-goodreads.png" alt="goodreads logo">
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="Yandex-Practicum Logo">
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.png" alt="Yandex-Practicum Logo">
           <p class="footer__author">&#169; 2021 Casey Rumberger</p>
         </div>
         <nav>
