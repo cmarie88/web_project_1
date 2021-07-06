@@ -22,6 +22,8 @@
   position: relative;
   align-items: center;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .logo_place_header {
@@ -80,7 +82,7 @@
   animation: rotation 20s infinite linear;
 }
 
-/*Rotation Block Styles MOVE TO TOP OF FILE*/
+/*Rotation Block Styles MOVE TO TOP OF FILE?*/
 @keyframes rotation {
   from {
     transform: rotate(0deg);
