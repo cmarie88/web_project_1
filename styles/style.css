@@ -140,6 +140,12 @@
 
 /*Video Block Styles*/
 /*put overflow: visible; to flow into next block*/
+.video__iframes {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  padding: 50px 0 0;
+}
 
 /*Oakley Block Styles*/
 .oakley {
@@ -202,12 +208,12 @@
 /*Digits Block Styles*/
 .digits {
   margin: 0;
-  padding: 100px 0;
+  /*padding: 100px 0;*/
 }
 
 .section-title {
   margin: 0 auto;
-  padding: 0;
+  padding: 100px 0 0;
   text-align: center;
   max-width: 60%;
   line-height: 69px;
@@ -264,13 +270,14 @@
 .kaufman {
   overflow: hidden;
   margin: 0;
-  padding: 90px 0;
+  padding: 0;
   background-color: #1f1f1f;
   color: white;
   position: relative;
 }
 
 .section-title_theme_dark {
+  padding: 90px 0 0;
   font-weight: bold;
   position: relative;
   z-index: 2;
@@ -284,7 +291,6 @@
 .table_theme_dark {
   position: relative;
   z-index: 2;
-
 }
 
 .table__cell_theme_dark {
