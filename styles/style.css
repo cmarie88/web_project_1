@@ -139,13 +139,20 @@
 /*Techniques Block Styles*/
 
 /*Video Block Styles*/
+/*put overflow: visible; to flow into next block*/
 
 /*Oakley Block Styles*/
+.oakley {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 160px 0 0;
+}
 
 /*Feyman Block Styles*/
 .feynman {
   min-height: 790px;
-  padding: 100px 0 0;
+  padding: 80px 0 0;
   background: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -365,11 +372,4 @@
   padding: 0 10px 0 0;
   width: 16px;
   height: 16px;
-}
-
-/*Oakley Block Styles*/
-.oakley {
-  display:flex;
-  justify-content: center;
-  padding: 100px 0 0;
 }
