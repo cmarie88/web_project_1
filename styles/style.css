@@ -139,10 +139,12 @@
 /*Techniques Block Styles*/
 
 /*Video Block Styles*/
-/*put overflow: visible; to flow into next block? didnt work
+/*put overflow: visible; to flow into next block? didnt work*/
+
 .video {
-overflow: visible;
-}*/
+  max-height: 540px;
+  overflow: visible;
+}
 
 .video__iframes {
   display: flex;
