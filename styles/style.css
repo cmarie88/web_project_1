@@ -165,7 +165,6 @@
   max-width: 240px;
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   align-content: center;
 }
 
@@ -209,6 +208,7 @@
   column-gap: 20px;
   justify-content: center;
   padding: 50px 0 0;
+  border: none;
 }
 
 /*Oakley Block Styles*/
