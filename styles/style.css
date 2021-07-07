@@ -137,6 +137,55 @@
 }
 
 /*Techniques Block Styles*/
+.techniques {
+  margin: 0;
+}
+
+.cards {
+  max-width: 920px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display:flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  justify-content: flex-start;
+}
+
+.cards__item {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-content: center;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 60px 40px 43px;
+  align-self: center;
+}
+
+.cards__title {
+  text-align: center;
+  margin: 0;
+  padding: 43px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  text-align: center;
+  margin: 0;
+  padding: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 
 /*Video Block Styles*/
 /*put overflow: visible; to flow into next block? didnt work*/
