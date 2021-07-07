@@ -59,6 +59,11 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: .5s ease-in-out;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -140,6 +145,10 @@
 .techniques {
   margin: 0;
 }
+
+/*.techniques + .section-title {
+  line-height: 1.15;
+}*/
 
 .cards {
   max-width: 920px;
@@ -249,6 +258,11 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  transition: .5s ease-in-out;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .feynman__image {
@@ -332,6 +346,8 @@
   max-width: 80%;
   justify-content: flex-start;
   margin: 0 auto;
+  max-height: 940px;
+  overflow: hidden;
 }
 
 .khan__author {
@@ -388,6 +404,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition: .5s ease-in-out;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 /*Kaufman Block Styles*/
@@ -509,6 +530,11 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
+  transition: .5s ease-in-out;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icons {
