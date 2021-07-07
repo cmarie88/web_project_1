@@ -146,9 +146,9 @@
   margin: 0;
 }
 
-/*.techniques + .section-title {
+.techniques .section-title {
   line-height: 1.15;
-}*/
+}
 
 .cards {
   max-width: 920px;
@@ -196,7 +196,9 @@
 
 
 /*Video Block Styles*/
-/*section title to 1.15, how? */ 
+.video .section-title {
+  line-height: 1.15;
+}
 
 .video {
   max-height: 540px;
