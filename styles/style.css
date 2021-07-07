@@ -263,7 +263,7 @@
 /*Digits Block Styles*/
 .digits {
   margin: 0;
-  /*padding: 100px 0;*/
+  padding: 0 0 100px;
 }
 
 .section-title {
@@ -320,6 +320,75 @@
 }
 
 /*Khan Block Styles*/
+.khan {
+  background: #f2f2f2;
+  padding: 105px 0 0;
+  margin: 0;
+}
+.khan__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  max-width: 80%;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 50px 0 0;
+  margin: 0;
+  max-width: 790px;
+}
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 36px 0 0;
+  margin: 0;
+}
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px 0 0;
+  margin: 0;
+}
+.khan__book-container {
+  padding: 68px 0 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  column-gap: 48px;
+}
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+}
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
 
 /*Kaufman Block Styles*/
 .kaufman {
