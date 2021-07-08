@@ -1,0 +1,8 @@
+.two-columns__paragraph {
+    padding: 0 0 30px;
+    margin: 0;
+  }
+  
+  .two-columns__paragraph:last-of-type {
+    padding: 0;
+  }

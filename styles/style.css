@@ -94,7 +94,7 @@
   }
 }*/
 
-/*Description Block Styles*/
+/*Description Block Styles
 .description {
   display:flex;
   justify-content: center;
@@ -136,7 +136,7 @@
 
 .two-columns__paragraph:last-of-type {
   padding: 0;
-}
+}*/
 
 /*Techniques Block Styles*/
 .techniques {
