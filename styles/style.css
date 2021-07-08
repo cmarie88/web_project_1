@@ -273,7 +273,7 @@
   z-index: 1;
 }*/
 
-/*Digits Block Styles*/
+/*Digits Block Styles
 .digits {
   margin: 0;
   padding: 0 0 100px;
@@ -330,9 +330,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
+}*/
 
-/*Khan Block Styles*/
+/*Khan Block Styles
+
 .khan {
   background: #f2f2f2;
   padding: 105px 0 0;
@@ -415,7 +416,7 @@
 
 .khan__buy-link:hover {
   opacity: 0.5;
-}
+}*/
 
 /*Kaufman Block Styles*/
 .kaufman {
