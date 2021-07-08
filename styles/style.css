@@ -138,14 +138,14 @@
   padding: 0;
 }*/
 
-/*Techniques Block Styles*/
+/*Techniques Block Styles
 .techniques {
   margin: 0;
 }
 
 .techniques .section-title {
   line-height: 1.15;
-}
+}*/
 
 /*.cards {
   max-width: 920px;
@@ -156,7 +156,7 @@
   flex-wrap: wrap;
   column-gap: 100px;
   justify-content: flex-start;
-}*/
+}
 
 .cards__item {
   max-width: 240px;
@@ -189,7 +189,7 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-}
+}*/
 
 
 /*Video Block Styles*/
