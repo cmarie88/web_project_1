@@ -462,7 +462,7 @@
   animation: rotation 20s infinite linear;
 }*/
 
-/*Resources Block Styles*/
+/*Resources Block Styles
 .resources__logo-zone {
   display: flex;
   max-width: 1100px;
@@ -479,7 +479,7 @@
 
 .resources__logo:hover {
   opacity: 0.5;
-}
+}*/
 
 /*Footer Block Styles*/
 .footer {
