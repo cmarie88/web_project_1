@@ -1,19 +1,16 @@
 /*Body/Page styles*/
-.page {
+/*.page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
   padding: 0;
 }
+*/
 
 /*Header Block Styles*/
-.header {
+/*.header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -85,9 +82,9 @@
   z-index: 0;
   transform: rotate(-15deg);
   animation: rotation 20s infinite linear;
-}
+}*/
 
-/*Rotation Block Styles MOVE TO TOP OF FILE?*/
+/*Rotation Block Styles MOVE TO TOP OF FILE?
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -95,7 +92,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
 
 /*Description Block Styles*/
 .description {
@@ -150,7 +147,7 @@
   line-height: 1.15;
 }
 
-.cards {
+/*.cards {
   max-width: 920px;
   margin: 0 auto;
   list-style: none;
@@ -159,7 +156,7 @@
   flex-wrap: wrap;
   column-gap: 100px;
   justify-content: flex-start;
-}
+}*/
 
 .cards__item {
   max-width: 240px;
