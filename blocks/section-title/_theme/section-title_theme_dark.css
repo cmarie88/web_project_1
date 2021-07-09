@@ -1,6 +1,5 @@
 .section-title_theme_dark {
     padding: 90px 0 0;
-    font-weight: bold;
     position: relative;
-    z-index: 2;
+    color: #fff;
   }
