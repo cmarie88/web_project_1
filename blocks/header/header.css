@@ -10,3 +10,16 @@
     margin: 0;
     padding: 0;
   }
+
+  header::after {
+    content: '';
+    height: 568px;
+    width: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: #2f80ed;
+    z-index: 0;
+    transform: rotate(-15deg);
+    animation: rotation 20s infinite linear;
+  }
