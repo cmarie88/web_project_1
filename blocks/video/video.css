@@ -1,8 +1,4 @@
-.video .section-title {
-    line-height: 1.15;
-  }
-  
-  .video {
+.video {
     max-height: 540px;
     overflow: visible;
   }
